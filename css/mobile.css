@@ -1,1 +1,31 @@
 /* 480-320  */
+/* header  */
+@media (max-width : 480px){
+    header{
+        padding-inline: 8px;
+    }
+}
+/* section1 */
+@media (max-width : 480px){
+    .section1{
+        height: 320px;
+        padding: 60px 115px;
+    }
+    h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    .section2 {
+        padding: 24px 8px;
+    }
+.card_section{
+    overflow-x: scroll;
+}
+.card_section_article{
+    flex: 1 0 282px;
+}
+}
+
+
+
